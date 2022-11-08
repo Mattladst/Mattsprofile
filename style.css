@@ -1,0 +1,77 @@
+h1 {
+  font-size: 30px
+}
+
+h2, h3 {
+  font-size: 24px
+}
+
+body {
+  background: #dad4d41a;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.text {
+  font-size: 22px;
+  color: darkgrey;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 960px) {.container {
+  width: 800px;
+  margin: 0 auto;
+}}
+
+.button {
+  background: rgb(11, 18, 56);
+  color: white;
+  padding: 10px 60px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.card {
+  background: white;
+  margin: 15px;
+  padding: 30px;
+  border: 0.5px solid white;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px #dad4d41a;
+  text-align: center;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 200px;
+  height: 220px;
+}
+
+.intro {
+  background: white;
+  margin: 15px;
+  padding: 30px;
+  border: 0.5px solid white;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px rgb(0 0 0 /10%);
+  text-align: center;
+}
+
+.mainbody {
+  background: white;
+  margin: 15px;
+  padding: 30px;
+  border: 0.5px solid white;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px rgba(80, 79, 79, 0.1);
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
